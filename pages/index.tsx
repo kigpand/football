@@ -13,8 +13,6 @@ const Home: NextPage = () => {
       url: 'https://api-football-v1.p.rapidapi.com/v3/players',
       params: {league: '39', season: '2020'},
       headers: {
-        'X-RapidAPI-Key': '8deff80edamsh3517d44352f00e6p1aa39ajsn485119418a82',
-        'X-RapidAPI-Host': 'api-football-v1.p.rapidapi.com'
       }
     };
     
